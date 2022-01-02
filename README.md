@@ -1,6 +1,6 @@
-# About this document
+# About this Repository
 
-This document will describe the changes which were made to the [connect](https://github.com/commaai/connect) repository in order to implement the **Fleet Manager** UI coding task.
+This README file will describe the changes which were made to the [connect](https://github.com/commaai/connect) repository in order to implement the **Fleet Manager** UI coding task.
 
 ## Libraries used
 ### `@emotion/styled`
