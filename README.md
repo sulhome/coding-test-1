@@ -3,7 +3,7 @@
 This README file will describe the changes which were made to the [connect](https://github.com/commaai/connect) repository in order to implement the **Fleet Manager** UI coding task.
 
 ## Libraries used
-### `@emotion/styled`
+### @emotion/styled
 This library was used to create ui components with specific css properties. Example usage exists in `fleet-manager/ui-components`
 The advantage of using this library is that you can customise native html tags with css syntax inside JavaScript files. 
 
