@@ -1,0 +1,64 @@
+/*
+
+  Explorer Base Styles
+  ~~~~~~~~~~~~~~~~~~~~
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #16181A;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/*
+  Scrollbar
+  ~~~~~~~~~~
+*/
+
+.scrollstyle::-webkit-scrollbar-track,
+.scrollstyle::-ms-track {
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.scrollstyle::-webkit-scrollbar {
+  background-color: transparent;
+  width: 12px;
+}
+
+.scrollstyle::-webkit-scrollbar-thumb,
+.scrollstyle::-ms-thumb {
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.scrollstyle:hover::-webkit-scrollbar-thumb,
+.scrollstyle:hover::-ms-thumb {
+  background-color: #49545B;
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, .125), 0 0 6px rgba(0, 0, 0, .3);
+}
+
+.scrollstyle::-webkit-scrollbar-thumb:hover,
+.scrollstyle::-ms-thumb:hover {
+  background-color: #596971;
+}
+
+.scrollstyle::-webkit-scrollbar-thumb:active,
+.scrollstyle::-ms-thumb:hover {
+  background-color: #49545B;
+  box-shadow: none;
+}
